@@ -102,6 +102,8 @@ local function open_window()
     style = 'minimal',
     border = border,
   })
+
+  vim.cmd('startinsert')
 end
 
 function M.open()
